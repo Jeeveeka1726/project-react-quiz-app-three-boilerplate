@@ -1,0 +1,28 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #div-container {
+    width: 28vw;
+  }
+  #div-container h1 {
+    font-size: 75px;
+  }
+  #play {
+    width: 57%;
+    height: 57%;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.66);
+    color: #fff;
+    margin-top: 7%;
+    font-size: 21px;
+  }
